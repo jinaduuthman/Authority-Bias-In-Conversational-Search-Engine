@@ -1,0 +1,17 @@
+# Data files
+data/
+
+# Environment
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Misc
+auto_models/
+references/
