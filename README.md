@@ -2,6 +2,8 @@
 
 Code and experiment pipeline for the paper **"Authority Bias in Conversational Search Engines for Academic Paper Recommendation"** (EMNLP 2026, Main Conference).
 
+**Dataset:** https://huggingface.co/datasets/uthmanjinadu/authority-bias-paper-recommendation
+
 **Authors:** Uthman Jinadu, Parsa Ghazvinian, Anjila Budathoki, Benjamin M. Ampel, Rajshekhar Sunderraman, Yi Ding
 (Georgia State University; University of Tennessee, Knoxville)
 
@@ -97,7 +99,11 @@ ANTHROPIC_API_KEY=...
 
 ## Data
 
-The full pipeline regenerates all artifacts under `data/` — the 1,250 collected papers, the three condition sets, the 250 queries and per-query candidate sets, and the parsed model responses (17,898 runs; 20,148 including the `gpt-4o-mini` tier ablation). `data/` is not tracked in git; see the release/archive linked from the paper for the frozen artifacts.
+The dataset — the 1,250 collected papers, the three condition sets, the 250 queries and per-query candidate sets, and the parsed model responses (17,898 runs; 20,148 including the `gpt-4o-mini` tier ablation) — is released on Hugging Face:
+
+**https://huggingface.co/datasets/uthmanjinadu/authority-bias-paper-recommendation**
+
+`data/` is not tracked in git; running the pipeline above regenerates it locally, or download the frozen artifacts from the Hugging Face dataset.
 
 ## Citation
 
