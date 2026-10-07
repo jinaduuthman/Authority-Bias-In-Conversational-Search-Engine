@@ -14,7 +14,7 @@ Large Language Models (LLMs) are increasingly used as conversational search engi
 ## Research Question
 
 When LLMs recommend research papers, do they evaluate on **content quality** or on **authority signals** (author fame, venue prestige, h-index, citation counts)? If authority signals drive recommendations regardless of content, this creates a systemic bias that disadvantages emerging researchers, smaller institutions, and newer work, amplifying the Matthew Effect through LLM-mediated discovery.
-
+.
 ## Methodology
 
 A **content-controlled counterfactual audit**: the same paper content (title + abstract) is presented with different authority metadata across three conditions, so any change in the recommendation is attributable to authority signals, not content.
