@@ -2,6 +2,8 @@
 
 Code and experiment pipeline for the paper **"Authority Bias in Conversational Search Engines for Academic Paper Recommendation"** (EMNLP 2026, Main Conference).
 
+**Paper:** https://arxiv.org/abs/2609.00248
+
 **Dataset:** https://huggingface.co/datasets/uthmanjinadu/authority-bias-paper-recommendation
 
 **Authors:** Uthman Jinadu, Parsa Ghazvinian, Anjila Budathoki, Benjamin M. Ampel, Rajshekhar Sunderraman, Yi Ding
@@ -14,7 +16,7 @@ Large Language Models (LLMs) are increasingly used as conversational search engi
 ## Research Question
 
 When LLMs recommend research papers, do they evaluate on **content quality** or on **authority signals** (author fame, venue prestige, h-index, citation counts)? If authority signals drive recommendations regardless of content, this creates a systemic bias that disadvantages emerging researchers, smaller institutions, and newer work, amplifying the Matthew Effect through LLM-mediated discovery.
-.
+
 ## Methodology
 
 A **content-controlled counterfactual audit**: the same paper content (title + abstract) is presented with different authority metadata across three conditions, so any change in the recommendation is attributable to authority signals, not content.
@@ -113,7 +115,10 @@ The dataset — the 1,250 collected papers, the three condition sets, the 250 qu
   author    = {Jinadu, Uthman and Ghazvinian, Parsa and Budathoki, Anjila and
                Ampel, Benjamin M. and Sunderraman, Rajshekhar and Ding, Yi},
   booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
-  year      = {2026}
+  year      = {2026},
+  eprint    = {2609.00248},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI}
 }
 ```
 
